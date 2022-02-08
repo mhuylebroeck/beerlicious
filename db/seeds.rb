@@ -1,7 +1,16 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+require 'json'
+require 'open-uri'
+
+url = "https://api.punkapi.com/v2/beers"
+beers_serialized = URI.open(url).read
+beers = JSON.parse(beers_serialized)
+
+beers.each do |result|
+  Beer.create(
+    name: result['name'],
+    tagline: result['tagline'],
+    first_brewed: result['first_brewed'],
+    description: result['description'],
+    image_url: result['image_url']
+  )
+end
