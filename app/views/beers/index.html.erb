@@ -19,7 +19,7 @@
       </div>
 
       <div class="steps-beerlicious" data-aos="fade-up"
-     data-aos-duration="1400">
+     data-aos-duration="1500">
         <h1>02.</h1>
         <h2>Get <br> informed</h2>
         <hr>
@@ -27,9 +27,9 @@
       </div>
 
       <div class="steps-beerlicious" data-aos="fade-up"
-     data-aos-duration="1800">
+     data-aos-duration="2000">
         <h1>03.</h1>
-        <h2>Discover <br>the best beer</h2>
+        <h2>Discover <br>the best fit</h2>
         <hr>
         <%# <img src="" alt=""> %>
       </div>
@@ -38,12 +38,20 @@
   </div>
 
   <div class="discover-section">
-    <h1>Discover our beers!</h1>
+    <h1 id="discover-title"> Discover the beers</h1>
 
-    <% @beers.each do |beer| %>
-          <p><%= beer.name %></p>
-        <% end %>
+     <div class="cards-beers">
+      <% @beers.each do |beer| %>
 
+      <div class="card-container">
+        <img src="<%=beer.image_url%>" alt="">
+        <div class="card-info">
+          <h3><%=beer.name%></h3>
+          <h6><%=beer.tagline.gsub("'", " ")%></h6>
+        </div>
+      </div>
+      <% end %>
+    </div>
   </div>
 
 </div>
