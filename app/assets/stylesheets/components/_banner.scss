@@ -1,29 +1,39 @@
 .banner {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url("https://images.unsplash.com/photo-1532635241-17e820acc59f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1715&q=80");
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  background-color: #000204;
+  margin: 0px 90px 0px 90px;
+  border-radius: 30px;
+  padding: 250px 0 200px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 }
 
 .banner h1 {
-  margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 64px;
+  font-size: 72px;
   font-weight: bold;
-  font-family:'Montserrat', sans-serif;
+  font-family: 'Mateofont', 'Montserrat', sans-serif;;
+  margin: 0;
 }
 
 .banner p {
-  font-size: 20px;
+  font-size: 48px;
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-family:'Montserrat', sans-serif;
+  font-family: 'Mateofont2', 'Montserrat', sans-serif;
+  padding-bottom: 60px;
+  margin: 0;
 }
 
 .container-banner {
+   margin-left: 140px;
+ }
 
+.main-container {
+ background-color: #000204;
 }
