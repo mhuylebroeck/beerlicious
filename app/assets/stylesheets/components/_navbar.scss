@@ -18,19 +18,19 @@
 }
 
 .navbar-expand-sm {
-  justify-content: space-between !important;
+  justify-content: space-between;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color:white !important;
+  color:white;
   font-weight: bold;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: 'montserrat';
+  font-family: 'Mateofont';
   font-size: 16px;
   display: inline-block;
-  padding-bottom:2px;
-  background-image: linear-gradient(#ffa704, #fbff00);
+  padding-bottom: 2px;
+  background: linear-gradient(94deg, rgba(255,167,4,1) 0%, rgba(255,167,4,1) 36%, rgba(251,255,0,1) 100%);
   background-position: 0 100%;
   background-size: 0% 2px;
   background-repeat: no-repeat;
@@ -48,9 +48,9 @@
 
 
 .navbar {
-  padding-right: 90px !important;
-  padding-left: 90px !important;
+  padding-right: 90px;
+  padding-left: 90px;
   height: 100px;
-  padding-bottom: 15px !important;
-  padding-top: 20px !important;
+  padding-bottom: 15px;
+  padding-top: 20px;
 }

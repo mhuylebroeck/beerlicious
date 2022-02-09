@@ -7,3 +7,46 @@
   font-family: 'Mateofont2';
   src: url('/assets/IntroHeadB-Trial-Base.ttf');
 }
+
+#steps-title {
+  padding: 30px 0 0 0px;
+  text-align: center;
+  font-size: 74px;
+  font-family: 'Permanent Marker';
+  color:white;
+  position: relative;
+  bottom: -35px;
+
+}
+
+.steps-container {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(124deg, rgba(255,167,4,1) 36%, rgba(255,208,4,1) 100%);
+  border-radius: 180px;
+  margin: 0px 90px 0px 90px;
+}
+
+.steps-beerlicious {
+  padding: 20px 60px 20px 60px;
+  margin:10px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.steps-beerlicious:hover {
+
+}
+
+.steps-beerlicious h1 {
+  font-size: 42px;
+  font-family: 'Mateofont';
+  color: #000204b7;
+}
+
+.steps-beerlicious h2 {
+  font-size: 22px;
+  font-family: 'Mateofont';
+  font-weight: bold;
+  color: white;
+}

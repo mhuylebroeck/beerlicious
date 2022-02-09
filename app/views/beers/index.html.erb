@@ -7,13 +7,40 @@
     </div>
   </div>
 
+  <div class="steps-section">
+    <h1 id="steps-title">LET's GO!</h1>
+    <div class="steps-container">
+      <div class="steps-beerlicious">
+        <h1>01.</h1>
+        <h2>Start <br> exploring</h2>
+        <hr>
+        <%# <img src="" alt=""> %>
+      </div>
 
-<h1>How it works</h1>
-<h1>Our beers</h1>
-<h1></h1>
+      <div class="steps-beerlicious">
+        <h1>02.</h1>
+        <h2>Get <br> informed</h2>
+        <hr>
+        <%# <img src="" alt=""> %>
+      </div>
 
-<% @beers.each do |beer| %>
-       <p><%= beer.name %></p>
-    <% end %>
+      <div class="steps-beerlicious">
+        <h1>03.</h1>
+        <h2>Discover <br>the best beer</h2>
+        <hr>
+        <%# <img src="" alt=""> %>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="discover-section">
+    <h1>Discover our beers!</h1>
+
+    <% @beers.each do |beer| %>
+          <p><%= beer.name %></p>
+        <% end %>
+
+  </div>
 
 </div>
