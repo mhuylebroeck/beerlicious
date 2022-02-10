@@ -1,0 +1,37 @@
+.main-container-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 90px 40px 90px;
+  background: linear-gradient(180deg, rgba(0,2,4,1) 0%, rgba(36,26,0,1) 92%);
+  background-size: 100%;
+}
+
+.beer-image img {
+  height: 600px;
+}
+
+.beer-description {
+  align-items: center;
+  padding: 0px 80px 0px 150px;
+
+  h1 {
+    font-family: 'Mateofont';
+    font-size: 64px;
+    font-weight: none;
+    color: white;
+
+  }
+
+  h6 {
+    font-family: 'Mateofont2';
+    font-size: 20px;
+    font-weight: 10;
+    color: rgba(255, 255, 255, 0.63);
+    text-align: justify;
+  }
+}
+
+.beer-info {
+  padding: 0px 80px 0px 80px
+}

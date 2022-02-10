@@ -11,6 +11,7 @@ beers.each do |result|
     tagline: result['tagline'],
     first_brewed: result['first_brewed'],
     description: result['description'],
-    image_url: result['image_url']
+    image_url: result['image_url'],
+    food_pairing: result['food_pairing']
   )
 end
