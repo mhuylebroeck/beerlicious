@@ -2,11 +2,10 @@ class BeersController < ApplicationController
 
   def index
     @beers = Beer.all
-    puts @beers
-
   end
 
   def show
+    @beer = Beer.find(params[:id])
   end
 
 end
