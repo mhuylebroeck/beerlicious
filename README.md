@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Hi 👋, I'm Mateo Huylebroeck
 
-Things you may want to cover:
+- 👨‍💻 I had a lot of fun developing the Beerlicious application! I hope you like it.
 
-* Ruby version
+- 🍻 I made an application that serves as an assistance for people who want to know more about beer. The page briefly explains in 3 easy steps what the purpose of the app is and how you can use it. 1. Start exploring 2. get informed and 3. Find your favourite beer!
 
-* System dependencies
+- 🍻 The user can see all available beers on the homepage and can explore by hovering over the beer cards. The user can also get more information by clicking on the beer card and read the description. The user can then decide weither he likes it or not.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- 📫 How to reach me **yhuylebroeck@eada.net**
