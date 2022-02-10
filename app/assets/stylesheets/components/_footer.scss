@@ -1,0 +1,24 @@
+.footer {
+  background: rgba(36,26,0,1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 16px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.footer-logo  img{
+  height: 100px;
+  padding-left: 90px;
+}
+
+.footer-text {
+  font-family: 'Courier New', Courier, monospace;
+  padding-right: 90px;
+  color: white ;
+
+}

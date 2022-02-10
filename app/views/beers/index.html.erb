@@ -3,41 +3,38 @@
     <div class='container-banner'>
       <h1>BEERLICIOUS </h1>
       <p>Discover your favourite beers</p>
-      <a class="btn-banner" href="#">Explore</a>
+      <a class="btn-banner" href="#discover">Explore</a>
     </div>
   </div>
 
-  <div class="steps-section">
-    <h1 id="steps-title">LET's GO!</h1>
+  <div class="steps-section" id="about">
+    <h1 id="steps-title">LET'S GO!</h1>
     <div class="steps-container"  >
       <div class="steps-beerlicious" data-aos="fade-up"
      data-aos-duration="1000">
         <h1>01.</h1>
         <h2>Start <br> exploring</h2>
-        <hr>
-        <%# <img src="" alt=""> %>
+        <hr class="line-steps">
       </div>
 
       <div class="steps-beerlicious" data-aos="fade-up"
      data-aos-duration="1500">
         <h1>02.</h1>
         <h2>Get <br> informed</h2>
-        <hr>
-        <%# <img src="" alt=""> %>
+        <hr class="line-steps">
       </div>
 
       <div class="steps-beerlicious" data-aos="fade-up"
      data-aos-duration="2000">
         <h1>03.</h1>
         <h2>Discover <br>the best fit</h2>
-        <hr>
-        <%# <img src="" alt=""> %>
+        <hr class="line-steps">
       </div>
     </div>
 
   </div>
 
-  <div class="discover-section">
+  <div class="discover-section" id="discover">
   <h1 id="discover-title"> Discover the beers</h1>
     <div class="cards-beers">
       <% @beers.each do |beer| %>

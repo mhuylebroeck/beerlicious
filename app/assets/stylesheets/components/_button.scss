@@ -1,12 +1,20 @@
 .btn-banner {
   text-decoration: none;
   color: white;
-  background-color: #ffa704;
-  font-family:'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: bold;
+  background: linear-gradient(124deg, rgba(255,167,4,1) 36%, rgba(255,208,4,1) 100%);
+  font-family:'Mateofont', sans-serif;
+  font-size: 32px;
+  font-weight: lighter;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 35px;
   margin-top: 30px;
   padding: 12px 30px;
+  transition: 0.5;
+}
+
+.btn-banner:hover {
+   background: linear-gradient(205deg, rgba(255,167,4,1) 36%, rgba(255,208,4,1) 100%);
+   text-decoration: none;
+   color: white;
+
 }
