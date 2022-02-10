@@ -1,18 +1,15 @@
 <div class="main-container-show">
 
   <div class="beer-image">
-    <img src="<%=@beer.image_url%>" alt="">
+    <div class="image-background">
+      <img src="<%=@beer.image_url%>" alt="">
+    </div>
   </div>
 
   <div class="beer-description">
     <h1><%=@beer.name%></h1>
+    <h5>Brewed since <%=@beer.first_brewed.to_s[0,4] %></h5>
     <h6><%=@beer.description %></h6>
   </div>
-
-  <div class="beer-info">
-    <h3><small>Brewed since</small><br><%=@beer.first_brewed.to_s[0,4] %></h3>
-  </div>
-
-
 
 </div>
